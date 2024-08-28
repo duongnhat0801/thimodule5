@@ -2,8 +2,8 @@ import axios from "axios";
 
 const baseURL = "http://localhost:8080/products";
 
-export const getAllProducts = (name) => {
-    return axios.get(`${baseURL}?_expand=category&name_like=${name}`);
+export const getAllProducts = (name, categoryId) => {
+    return axios.get(`${baseURL}?_expand=category&name_like=${name}&categoryId_like=${categoryId}`)
 }
 
 export const getProductsByTopPrice = (top) => {
