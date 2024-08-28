@@ -63,19 +63,19 @@
   ],
   "categories": [
     {
-      "id": 1,
-      "name": "Điện thoại"
+      "id": "1",
+      "nameA": "Điện thoại"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Màn hình"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Tivi"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Tủ lạnh"
     }
   ]
