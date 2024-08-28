@@ -3,12 +3,12 @@
     {
       "id": 1,
       "productCode": "PROD-0001",
-      "name": "Samsung Galaxy X",
+      "name": "Samsung Galaxy Y",
       "price": 990000,
       "categoryId": 1,
       "quantity": 12,
       "entryDate": "2024-08-08",
-      "description": "Sản xuất bởi Samsung"
+      "description": "Điện thoại sản xuất bởi Samsung"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "categoryId": 2,
       "quantity": 5,
       "entryDate": "2024-07-07",
-      "description": "Màn hình gamming"
+      "description": "Màn hình gamming siêu cấp vip pro"
     },
     {
       "id": 3,
@@ -41,24 +41,24 @@
       "description": "Tủ lạnh panasonic tiện lợi cho mọi gia đình"
     },
     {
-      "name": "Độc giả lang thang",
-      "productCode": "PROD-0005",
-      "price": 890000,
-      "quantity": 1,
+      "name": "Khoa học",
+      "productCode": "PROD-0011",
+      "price": 99999,
+      "quantity": 12,
+      "entryDate": "2024-08-23",
       "categoryId": "2",
-      "id": 5,
-      "entryDate": "2024-08-16",
-      "description": "Đây là mô tả sản phẩm"
+      "description": "khong",
+      "id": 6
     },
     {
-      "id": "9c7a",
-      "name": "ádasd",
-      "productCode": "PROD-0011",
-      "price": 123444,
-      "quantity": 1,
-      "entryDate": "2024-08-17",
+      "name": "AAA",
+      "productCode": "PROD-0012",
+      "price": 999999,
+      "quantity": 11,
+      "entryDate": "2024-08-21",
       "categoryId": 1,
-      "description": "sdaadasdadasdasd"
+      "description": "khong",
+      "id": 7
     }
   ],
   "categories": [
