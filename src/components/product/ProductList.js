@@ -81,34 +81,38 @@ const ProductList = () => {
                         onChange={(e) => setName(e.target.value)}
                     />
                 </div>
-                <table className="table table-bordered align-middle">
-                    <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Mã Sản Phẩm</th>
-                        <th>Tên Sản Phẩm</th>
-                        <th>Loại Sản Phẩm</th>
-                        <th>Giá Bán</th>
-                        <th>Số Lượng</th>
-                        <th>Ngày Nhập</th>
-                        <th>Mô tả</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    {products.map((product, index) => (
-                        <tr key={product.id}>
-                            <td>{index + 1}</td>
-                            <td>{product.productCode}</td>
-                            <td>{product.name}</td>
-                            <td>{product.category?.name || 'Không xác định'}</td>
-                            <td>{formatCurrency(product.price)}</td>
-                            <td>{product.quantity}</td>
-                            <td>{product.entryDate}</td>
-                            <td>{product.description}</td>
-                        </tr>
-                    ))}
-                    </tbody>
-                </table>
+                {
+
+                    products.length == 0 ? <h3>Không có sản phẩm nào</h3> :
+                        <table className="table table-bordered align-middle">
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Mã Sản Phẩm</th>
+                                <th>Tên Sản Phẩm</th>
+                                <th>Loại Sản Phẩm</th>
+                                <th>Giá Bán</th>
+                                <th>Số Lượng</th>
+                                <th>Ngày Nhập</th>
+                                <th>Mô tả</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {products.map((product, index) => (
+                                <tr key={product.id}>
+                                    <td>{index + 1}</td>
+                                    <td>{product.productCode}</td>
+                                    <td>{product.name}</td>
+                                    <td>{product.category?.name || 'Không xác định'}</td>
+                                    <td>{formatCurrency(product.price)}</td>
+                                    <td>{product.quantity}</td>
+                                    <td>{product.entryDate}</td>
+                                    <td>{product.description}</td>
+                                </tr>
+                            ))}
+                            </tbody>
+                        </table>
+                }
             </div>
 
             <Modal show={!!selectedProduct} onHide={handleCloseModal}>

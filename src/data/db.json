@@ -46,7 +46,7 @@
       "price": 99999,
       "quantity": 12,
       "entryDate": "2024-08-23",
-      "categoryId": "2",
+      "categoryId": 2,
       "description": "khong",
       "id": 6
     },
@@ -59,23 +59,43 @@
       "categoryId": 1,
       "description": "khong",
       "id": 7
+    },
+    {
+      "id": "929c",
+      "name": "ádasd",
+      "productCode": "PROD-0011",
+      "price": 123300,
+      "quantity": 4455,
+      "entryDate": "2024-08-17",
+      "categoryId": 1,
+      "description": "ádasdasdas"
+    },
+    {
+      "id": "911d",
+      "name": "aaaaaaaaa",
+      "productCode": "PROD-0012",
+      "price": 1233000,
+      "quantity": 1,
+      "entryDate": "2024-08-10",
+      "categoryId": 1,
+      "description": "ádasdasdasd"
     }
   ],
   "categories": [
     {
-      "id": "1",
-      "nameA": "Điện thoại"
+      "id": 1,
+      "name": "Điện thoại"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Màn hình"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Tivi"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Tủ lạnh"
     }
   ]
